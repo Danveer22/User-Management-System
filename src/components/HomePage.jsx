@@ -35,11 +35,17 @@ const Table = styled.table`
     color: white;
     font-weight: bold;
     border-bottom: 2px solid #ddd;
+    @media (max-width: 650px) {
+      display: none;
+    }
   }
 
   td {
     padding: 0.8rem;
     border-bottom: 1px solid #ddd;
+    @media (max-width: 650px) {
+      display: block;
+    }
   }
 
   tr:nth-child(even) {
