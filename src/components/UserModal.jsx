@@ -20,6 +20,10 @@ const FormContainer = styled.div`
   padding: 2rem;
   border-radius: 8px;
   width: 80rem;
+
+  @media (max-width: 650px) {
+    width: 50rem;
+  }
 `;
 
 const StyledDiv = styled.div`
